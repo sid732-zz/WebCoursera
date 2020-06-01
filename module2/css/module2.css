@@ -1,7 +1,6 @@
 * {
-  box-sizing:content-box;
-  margin: 0;
-  padding: 0;
+  box-sizing:border-box;
+ 
  
 }
 h1{
@@ -9,11 +8,13 @@ h1{
 }
 .container{
 	float: left;
-	margin: 10px;
+	margin-left: 30px;
+	margin-bottom: 10px;
+	
 	
 	background-color: lightblue;
 	width: 30%;
-	height: 200px;
+	height: 250px;
 	position: relative;
  	top: 60px;
 	border: 3px solid black;
@@ -59,12 +60,13 @@ h1{
 		width: 45%;
 	}
 	#box3{
-		width: 100%;
+		width: 93%;
 	}
 }
 @media (max-width: 767px){
 	.container{
-		width: 100%;
+		width: 80%;
 		height: 250px;
+		margin-left: 40px;
 	}
 }
